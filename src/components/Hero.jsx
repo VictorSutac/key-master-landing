@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="relative z-10 w-full">
         <img src="/hero.png" alt="KEY MASTER" className="w-[165px] mb-8" />
 
-        <h1 className="text-[31px] leading-[0.96] font-[700] tracking-[-0.03em] mb-5 max-w-[310px] uppercase">
+        <h1 className="text-[31px] leading-[1.08] font-[700] tracking-[-0.03em] mb-5 max-w-[310px] uppercase">
           {businessInfo.title}
         </h1>
 

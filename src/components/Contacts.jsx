@@ -31,7 +31,7 @@ export default function Contacts() {
 
         {/* Адрес */}
         <div className="flex items-start gap-4 mb-7">
-          <MapPin className="text-[#3B93FF] mt-1" size={22} />
+          <MapPin className="text-[#3B93FF] mt-1" size={27} />
 
           <div>
             <p className="text-white font-medium leading-[1.5]">
@@ -105,7 +105,7 @@ export default function Contacts() {
           onClick={() => setShowMap(!showMap)}
           className="outline-button"
         >
-          <MapPin size={18} />
+          <MapPin size={30} />
 
           {showMap ? "Скрыть карту" : "Открыть карту"}
         </button>
