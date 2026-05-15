@@ -62,33 +62,37 @@ export default function CardPage() {
           <section className="relative z-10 glass-card rounded-[26px] p-6 mb-8">
             <div className="space-y-5 mb-6">
               <div className="flex flex-col gap-5 mb-6">
-                <a href="tel:+37379447805" className="flex items-start gap-4">
-                  <Phone className="blue-icon mt-1" size={28} />
+                <a
+                  href={businessInfo.phoneLink1}
+                  className="flex items-start gap-4"
+                  aria-label={`Позвонить: ${businessInfo.name1}`}
+                >
+                  <Phone className="blue-icon mt-1 shrink-0" size={28} />
 
                   <div>
                     <p className="text-sm text-gray-400 font-medium">
-                      {" "}
                       {businessInfo.name1}
                     </p>
 
                     <p className="text-[24px] font-[700]">
-                      {" "}
                       {businessInfo.phone1}
                     </p>
                   </div>
                 </a>
 
-                <a href="tel:+37379927900" className="flex items-start gap-4">
-                  <Phone className="blue-icon mt-1" size={28} />
+                <a
+                  href={businessInfo.phoneLink2}
+                  className="flex items-start gap-4"
+                  aria-label={`Позвонить: ${businessInfo.name2}`}
+                >
+                  <Phone className="blue-icon mt-1 shrink-0" size={28} />
 
                   <div>
                     <p className="text-sm text-gray-400 font-medium">
-                      {" "}
                       {businessInfo.name2}
                     </p>
 
                     <p className="text-[24px] font-[700]">
-                      {" "}
                       {businessInfo.phone2}
                     </p>
                   </div>
