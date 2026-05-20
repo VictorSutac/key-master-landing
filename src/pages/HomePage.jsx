@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#010409] text-white">
       <div
-        className="max-w-[430px] mx-auto min-h-screen bg-cover bg-top bg-repeat-y"
+        className="max-w-[430px] mx-auto min-h-screen bg-cover bg-top bg-repeat-y overflow-hidden"
         style={{
           backgroundImage: "url('/background.png')",
         }}
@@ -18,14 +18,14 @@ export default function HomePage() {
         <div className="min-h-screen bg-black/28">
           <Hero />
           <Services />
-          
           <WhyUs />
           <Slogan />
           <Contacts />
-          <Footer />
+          <div className="mt-14">
+            <Footer />
+          </div>
         </div>
       </div>
     </main>
   );
 }
-
