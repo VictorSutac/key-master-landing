@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 export default function PageHero({
   title,
   description,
@@ -17,7 +16,10 @@ export default function PageHero({
     >
       <div className="relative z-10">
         {logoTo ? (
-          <Link to={logoTo} className="block w-fit">
+          <Link
+            to={logoTo}
+            className="block w-fit outline-none focus:outline-none"
+          >
             {logo}
           </Link>
         ) : (

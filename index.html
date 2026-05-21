@@ -2,23 +2,40 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+
+      window.addEventListener("beforeunload", function () {
+        window.scrollTo(0, 0);
+      });
+
+      window.addEventListener("pagehide", function () {
+        window.scrollTo(0, 0);
+      });
+    </script>
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Изготовление ключей и ремонт замков в Комрате — Key Master
-    </title>
-     <meta
-    name="description"
-    content="Профессиональное изготовление автоключей, ремонт замков и вскрытие без повреждений в Комрате. Гарантия качества и надежности от Key Master. Звоните: +373 79 447 805."
-  />
 
-  <meta
-    name="keywords"
-    content="изготовление ключей Комрат, ремонт замков, автоключи с чипом, вскрытие замков Комрат, дубликаты ключей, Key Master Комрат"
-  />
+    <title>Изготовление ключей и ремонт замков в Комрате — Key Master</title>
 
-  <meta name="theme-color" content="#010409" />
+    <meta
+      name="description"
+      content="Профессиональное изготовление автоключей, ремонт замков и вскрытие без повреждений в Комрате. Гарантия качества и надежности от Key Master. Звоните: +373 79 447 805."
+    />
+
+    <meta
+      name="keywords"
+      content="изготовление ключей Комрат, ремонт замков, автоключи с чипом, вскрытие замков Комрат, дубликаты ключей, Key Master Комрат"
+    />
+
+    <meta name="theme-color" content="#010409" />
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

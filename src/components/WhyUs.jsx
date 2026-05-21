@@ -15,9 +15,9 @@ export default function WhyUs() {
           return (
             <div
               key={index}
-              className="glass-card rounded-[18px] px-5 py-4 text-[15px] font-bold flex items-center gap-4"
+              className="glass-card rounded-[18px] px-8 py-4 text-[15px] font-bold grid grid-cols-[34px_1fr] items-center gap-5"
             >
-              <Icon className="blue-icon shrink-0" size={25} />
+              <Icon className="blue-icon shrink-0" size={28} />
               <span>{benefit}</span>
             </div>
           );

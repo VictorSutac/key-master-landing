@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero";
 import ContactCard from "../components/ContactCard";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function CardPage() {
   return (

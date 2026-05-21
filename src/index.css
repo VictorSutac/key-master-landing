@@ -7,7 +7,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -334,23 +334,4 @@ body {
 
   box-shadow:
     0 0 50px rgba(0, 0, 0, 0.45);
-}
-
-/* ===== MOBILE ===== */
-
-@media (max-width: 480px) {
-  .section-title {
-    font-size: 28px;
-  }
-
-  .page-section {
-    padding: 36px 18px;
-  }
-
-  .primary-button,
-  .outline-button {
-    min-height: 58px;
-
-    font-size: 16px;
-  }
 }

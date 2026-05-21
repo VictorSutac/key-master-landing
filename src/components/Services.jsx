@@ -6,7 +6,7 @@ const icons = [KeyRound, LockOpen, Car, RotateCcw, RadioTower];
 export default function Services() {
   return (
     <section className="page-section">
-      <div className="glass-card rounded-[22px] px-8 py-7">
+      <div className="glass-card rounded-[26px] px-8 py-7">
         <h2 className="section-title mb-6">Услуги</h2>
 
         <div className="space-y-4">
